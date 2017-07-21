@@ -21,7 +21,7 @@
     view.frame = CGRectMake(10, 100, 200, 50);
     view.ballColor = [UIColor whiteColor];
     view.indicatorColor = [UIColor redColor];
-    view.speed = 1;
+    view.speed = 0.5;
     view.direction = WXDirectionRightToLeft;
     [self.view addSubview:view];
     

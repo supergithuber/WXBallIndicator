@@ -124,6 +124,9 @@
     }
     [self.timer invalidate];
     self.timer = nil;
+    for (UIView *ball in self.ballArray) {
+        ball.backgroundColor = self.ballColor;
+    }
 }
 
 @end

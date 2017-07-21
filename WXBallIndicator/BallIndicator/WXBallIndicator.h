@@ -21,7 +21,7 @@ typedef NS_ENUM(NSInteger, WXDirection){
 @property (nonatomic, assign)NSInteger indicatorBallNumber;
 @property (nonatomic, assign)NSInteger ballNumber;
 
-@property (nonatomic, assign)NSUInteger speed;
+@property (nonatomic, assign)CGFloat speed;
 @property (nonatomic, assign)WXDirection direction;
 
 @property (nonatomic, assign)CGFloat ballRadius;
