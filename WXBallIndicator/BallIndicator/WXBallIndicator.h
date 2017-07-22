@@ -25,6 +25,8 @@ typedef NS_ENUM(NSInteger, WXDirection){
 @property (nonatomic, assign)WXDirection direction;        //left to right ,right to left
 
 @property (nonatomic, assign)CGFloat ballRadius;        // ball redius
+
+
 - (void)startAnimation;
 - (void)stopAnimation;
 
