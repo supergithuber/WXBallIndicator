@@ -1,3 +1,3 @@
 ###WXBallIndicator
 
-![image]()
+![image](https://github.com/supergithuber/WXBallIndicator/blob/master/demo.gif)
