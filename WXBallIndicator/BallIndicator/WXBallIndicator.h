@@ -15,16 +15,16 @@ typedef NS_ENUM(NSInteger, WXDirection){
 
 @interface WXBallIndicator : UIView
 
-@property (nonatomic, strong)UIColor *indicatorColor;
-@property (nonatomic, strong)UIColor *ballColor;
+@property (nonatomic, strong)UIColor *indicatorColor;    //scrollBall color
+@property (nonatomic, strong)UIColor *ballColor;         //normalBall color
 
-@property (nonatomic, assign)NSInteger indicatorBallNumber;
-@property (nonatomic, assign)NSInteger ballNumber;
+@property (nonatomic, assign)NSInteger indicatorBallNumber;     //scrollBall Number
+@property (nonatomic, assign)NSInteger ballNumber;              //totalBall Number
 
-@property (nonatomic, assign)CGFloat speed;
-@property (nonatomic, assign)WXDirection direction;
+@property (nonatomic, assign)CGFloat speed;                //ball speed :bigger(slower)
+@property (nonatomic, assign)WXDirection direction;        //left to right ,right to left
 
-@property (nonatomic, assign)CGFloat ballRadius;
+@property (nonatomic, assign)CGFloat ballRadius;        // ball redius
 - (void)startAnimation;
 - (void)stopAnimation;
 

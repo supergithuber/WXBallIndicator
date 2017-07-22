@@ -26,6 +26,20 @@
     [self.view addSubview:view];
     
     [view startAnimation];
+    
+    WXBallIndicator *view2 = [[WXBallIndicator alloc] init];
+    view2.frame = CGRectMake(10, 300, 200, 50);
+    view2.ballColor = [UIColor whiteColor];
+    view2.indicatorColor = [UIColor greenColor];
+    view2.speed = 0.6;
+    view2.ballRadius = 10;
+    view2.ballNumber = 8;
+    view2.indicatorBallNumber = 4;
+    view2.backgroundColor = [UIColor redColor];
+    view2.layer.cornerRadius = 10;
+    [self.view addSubview:view2];
+    
+    [view2 startAnimation];
 }
 
 
