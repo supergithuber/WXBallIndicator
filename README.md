@@ -1,10 +1,12 @@
-###	WXBallIndicator
+## 	WXBallIndicator
 
 ![image](https://github.com/supergithuber/WXBallIndicator/blob/master/demo.gif)
 
 A ballIndicator to indicate the progress of transforming or sending signal from one to another
 
-#### You can set:
+### **You can set:**
+
+***
 
 indicatorColor;    //scrollBall color
 
@@ -20,7 +22,11 @@ direction;        //left to right ,right to left
 
 ballRadius;        // ball redius
 
-#### By calling
+### **By calling**
+
+*****
+
+
 **-(void)startAnimation**  
 
 start animation
@@ -30,6 +36,9 @@ start animation
 
 stop animation
 
-#### Usage
+### **Usage**
+
+*****
+
 
 1. drag the foler *BallIndicator* which contains two file in the project into your project
